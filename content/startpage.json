@@ -1,0 +1,8 @@
+{
+    "hero": {
+        "heading": "Jonika.nu",
+        "intro": "The place where Jonas's ideas and projects live!",
+        "image": "https://picsum.photos/600/400",
+        "imagealt": "A random pic from picsum.photos"
+    }
+}
