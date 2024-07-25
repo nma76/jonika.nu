@@ -17,12 +17,8 @@
                 "url": "about"
             },
             {
-                "heading": "Contact",
-                "url": "contact"
-            },
-            {
-                "heading": "Portfolio",
-                "url": "portfolio"
+                "heading": "Article",
+                "url": "article"
             }
         ]
     },
