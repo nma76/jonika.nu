@@ -24,6 +24,7 @@ class Footer:
 class SiteSettings:
     meta: Meta
     title: str
+    language: str
     topmenu: TopMenu
     footer: Footer
            

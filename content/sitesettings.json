@@ -1,9 +1,10 @@
 {
     "meta": {
-        "description": "",
-        "author": ""
+        "description": "This is a meta description and it should be very informative",
+        "author": "Jonas Lindau"
     },
     "title": "Jonika.Nu",
+    "language": "en",
     "topmenu": {
         "homecaption": "Start",
         "menuitems": [
