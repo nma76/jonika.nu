@@ -4,5 +4,26 @@
         "intro": "The place where Jonas's ideas and projects live!",
         "image": "https://picsum.photos/600/400",
         "imagealt": "A random pic from picsum.photos"
+    },
+    "featured": {
+        "heading": "Some fancy title or something",
+        "stories": [
+            {
+                "heading": "Featured story 1",
+                "intro": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text."
+            },
+            {
+                "heading": "Featured story 2",
+                "intro": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text."
+            },
+            {
+                "heading": "Featured story 3",
+                "intro": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text."
+            },
+            {
+                "heading": "Featured story 4",
+                "intro": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text."
+            }
+        ]        
     }
 }

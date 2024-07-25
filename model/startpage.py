@@ -1,6 +1,16 @@
 from dataclasses import dataclass
 import json
 
+@dataclass
+class Story:
+    heading: str
+    intro: str
+
+@dataclass
+class Featured:
+    heading: str
+    stories: list[Story]
+
 @dataclass()
 class Hero:
     heading: str
@@ -11,6 +21,7 @@ class Hero:
 @dataclass()
 class Startpage:
     hero: Hero
+    featured: Featured
         
 def get_startpage():
     with open('./content/startpage.json') as file:
