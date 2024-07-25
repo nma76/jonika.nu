@@ -1,22 +1,7 @@
 from dataclasses import dataclass
+from model.stories import Featured
+from model.hero import Hero
 import json
-
-@dataclass
-class Story:
-    heading: str
-    intro: str
-
-@dataclass
-class Featured:
-    heading: str
-    stories: list[Story]
-
-@dataclass()
-class Hero:
-    heading: str
-    intro: str
-    image: str
-    imagealt: str
 
 @dataclass()
 class Startpage:
