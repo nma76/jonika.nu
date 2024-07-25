@@ -1,5 +1,16 @@
 from dataclasses import dataclass
-from model.post import Post
+from model.contact import Contact
+
+@dataclass()
+class Post:
+    image: str
+    imagealt: str
+    tag: str
+    heading: str
+    url: str
+    intro: str
+    published: str
+    contact: Contact
 
 @dataclass
 class Blog:

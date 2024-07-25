@@ -9,7 +9,6 @@ class Startpage:
     hero: Hero
     featuredstories: Stories
     featuredblog: Blog
-    # sitesettings: Optional[SiteSettings] = field(default_factory=None)
         
 def get_startpage():
     with open('./content/startpage.json') as file:
