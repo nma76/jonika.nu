@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        {% if sitesettings.meta %}
-        <meta name="description" content="{{ sitesettings.meta.description }}" />
-        <meta name="author" content="{{ sitesettings.meta.author }}" />
+        {% if model.sitesettings.meta %}
+        <meta name="description" content="{{ model.sitesettings.meta.description }}" />
+        <meta name="author" content="{{ model.sitesettings.meta.author }}" />
         {% endif %}
-        <title>{{ sitesettings.title }}</title>
+        <title>{{ model.sitesettings.title }}</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
         <!-- Bootstrap icons-->

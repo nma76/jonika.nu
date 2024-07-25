@@ -4,17 +4,17 @@ from model.sitesettings import get_sitesettings
 
 app = Flask(__name__)
 
-# Load Global properties and settings
-sitesettings = get_sitesettings()
-
+# Add route to Assets
 @app.route('/assets/<path:path>')
 def assets(path):
     return send_from_directory('assets', path)
 
+# Website routes
 @app.route('/')
 def index():
     model = get_startpage()
-    return render_template('index.html.j2', model=model, sitesettings=sitesettings)
+    model.sitesettings = get_sitesettings()
+    return render_template('index.html.j2', model=model)
 
 @app.route('/about')
 def about():
