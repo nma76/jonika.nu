@@ -3,7 +3,11 @@
         "heading": "Jonika.nu",
         "intro": "The place where Jonas's ideas and projects live!",
         "image": "https://picsum.photos/600/400",
-        "imagealt": "A random pic from picsum.photos"
+        "imagealt": "A random pic from picsum.photos",
+        "actionbutton": {
+            "caption": "Read More below!",
+            "targeturl": "#features"
+        }
     },
     "featuredstories": {
         "heading": "Some fancy title or something",
@@ -31,7 +35,7 @@
         "intro": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.",
         "posts": [
             {
-                "image": "https://picsum.photos/600/350",
+                "image": "https://picsum.photos/seed/blog1/600/350",
                 "imagealt": "A random pic from picsum.photos",
                 "tag": "Optimizely",
                 "heading": "A blog post title",
@@ -45,7 +49,7 @@
                 }
             },
             {
-                "image": "https://picsum.photos/600/350",
+                "image": "https://picsum.photos/seed/blog2/600/350",
                 "imagealt": "A random pic from picsum.photos",
                 "tag": "Cooking",
                 "heading": "Another blog post title",
@@ -59,7 +63,7 @@
                 }
             },
             {
-                "image": "https://picsum.photos/600/350",
+                "image": "https://picsum.photos/seed/blog3/600/350",
                 "imagealt": "A random pic from picsum.photos",
                 "tag": "Tech",
                 "heading": "Third blog post title",
