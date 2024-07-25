@@ -6,6 +6,6 @@ class Story:
     intro: str
 
 @dataclass
-class Featured:
+class Stories:
     heading: str
     stories: list[Story]

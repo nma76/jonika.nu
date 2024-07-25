@@ -5,7 +5,7 @@
         "image": "https://picsum.photos/600/400",
         "imagealt": "A random pic from picsum.photos"
     },
-    "featured": {
+    "featuredstories": {
         "heading": "Some fancy title or something",
         "stories": [
             {
@@ -24,6 +24,54 @@
                 "heading": "Featured story 4",
                 "intro": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text."
             }
-        ]        
+        ]
+    },
+    "featuredblog": {
+        "heading": "From my blog",
+        "intro": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.",
+        "posts": [
+            {
+                "image": "https://picsum.photos/600/350",
+                "imagealt": "A random pic from picsum.photos",
+                "tag": "Optimizely",
+                "heading": "A blog post title",
+                "url": "https://www.jonika.nu/something/1",
+                "intro": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "published": "2021-06-29, 14:00",
+                "contact": {
+                    "image": "https://picsum.photos/40/40",
+                    "imagealt": "A random pic from picsum.photos",
+                    "name": "Rowan Atkinson"
+                }
+            },
+            {
+                "image": "https://picsum.photos/600/350",
+                "imagealt": "A random pic from picsum.photos",
+                "tag": "Cooking",
+                "heading": "Another blog post title",
+                "url": "https://www.jonika.nu/something/1",
+                "intro": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "published": "2021-06-29, 14:00",
+                "contact": {
+                    "image": "https://picsum.photos/40/40",
+                    "imagealt": "A random pic from picsum.photos",
+                    "name": "Rowan Atkinson"
+                }
+            },
+            {
+                "image": "https://picsum.photos/600/350",
+                "imagealt": "A random pic from picsum.photos",
+                "tag": "Tech",
+                "heading": "Third blog post title",
+                "url": "https://www.jonika.nu/something/1",
+                "intro": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "published": "2021-06-29, 14:00",
+                "contact": {
+                    "image": "https://picsum.photos/40/40",
+                    "imagealt": "A random pic from picsum.photos",
+                    "name": "Rowan Atkinson"
+                }
+            }
+        ]
     }
 }
