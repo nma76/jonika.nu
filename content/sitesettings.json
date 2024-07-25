@@ -14,11 +14,15 @@
             },
             {
                 "heading": "About",
-                "url": "about"
+                "url": "/about"
             },
             {
                 "heading": "Article",
-                "url": "article"
+                "url": "/article/1"
+            },
+            {
+                "heading": "Article",
+                "url": "/article/2"
             }
         ]
     },

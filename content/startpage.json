@@ -2,7 +2,7 @@
     "hero": {
         "heading": "Jonika.nu",
         "intro": "The place where Jonas's ideas and projects live!",
-        "image": "https://picsum.photos/600/400",
+        "image": "https://picsum.photos/seed/hero/600/400",
         "imagealt": "A random pic from picsum.photos",
         "actionbutton": {
             "caption": "Read More below!",

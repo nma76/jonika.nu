@@ -1,13 +1,36 @@
-{
-    "contact": {
-        "image": "https://picsum.photos/50/50",
+[
+    {
+        "id": 1,
+        "contact": {
+            "image": "https://picsum.photos/50/50",
+            "imagealt": "A random pic from picsum.photos",
+            "name": "Rowan Atkinson"
+        },
+        "heading": "Welcome to article 1!",
+        "published": "2023-04-12 14:00",
+        "tags": [
+            "Tag 1",
+            "Tag 2"
+        ],
+        "image": "https://picsum.photos/seed/article1/900/400",
         "imagealt": "A random pic from picsum.photos",
-        "name": "Rowan Atkinson"
+        "mainbody": "<p class='fs-5 mb-4'>Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p><p class='fs-5 mb-4'>The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>"
     },
-    "heading": "Welcome to this article!",
-    "published": "2023-04-12 14:00",
-    "tags": [ "Tag 1", "Tag 2" ],
-    "image": "https://picsum.photos/seed/article/900/400",
-    "imagealt": "A random pic from picsum.photos",
-    "mainbody": "<p class='fs-5 mb-4'>Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p><p class='fs-5 mb-4'>The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>"
-}
+    {
+        "id": 2,
+        "contact": {
+            "image": "https://picsum.photos/50/50",
+            "imagealt": "A random pic from picsum.photos",
+            "name": "Rowan Atkinson"
+        },
+        "heading": "Welcome to article 2!",
+        "published": "2023-04-12 14:00",
+        "tags": [
+            "Tag 1",
+            "Tag 2"
+        ],
+        "image": "https://picsum.photos/seed/article2/900/400",
+        "imagealt": "A random pic from picsum.photos",
+        "mainbody": "<p class='fs-5 mb-4'>Mauris ut est volutpat, porttitor erat ac, auctor risus. Aenean a volutpat enim. Vestibulum quam ex, rutrum eget lacus vel, hendrerit pretium urna. Suspendisse dapibus elit sed tortor porta facilisis. Vestibulum a blandit ligula. Pellentesque posuere mollis luctus. Morbi non elit ac tortor molestie malesuada sit amet a eros.</p><p class='fs-5 mb-4'>Aenean ornare tellus eros, at tristique ex porta id. Vivamus sed molestie magna. Integer pellentesque tempus eros vel aliquet. Vestibulum vel nisl libero. Pellentesque id velit eu urna efficitur pharetra in at metus. Morbi dictum placerat ullamcorper. Morbi pretium ac quam sed mollis. Curabitur sagittis ultrices sem in ullamcorper. Nulla facilisi. Phasellus mollis est ac condimentum suscipit. Suspendisse et pharetra arcu, at suscipit risus. Cras molestie, ipsum ut auctor porttitor, ligula metus condimentum nisl, sit amet commodo diam eros eget sem.</p>"
+    }
+]

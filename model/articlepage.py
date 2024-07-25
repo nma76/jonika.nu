@@ -6,6 +6,7 @@ import json
 
 @dataclass()
 class ArticlePage:
+    id: int
     contact: Contact
     heading: str
     published: str
@@ -14,8 +15,8 @@ class ArticlePage:
     imagealt: str
     mainbody: str
     sitesettings: Optional[SiteSettings] = field(default_factory=lambda: None)
-        
-def get_articlepage():
+   
+def get_articlepages():
     with open('./content/articles.json') as file:
         data = json.load(file)
-        return ArticlePage(**data)
+        return [ArticlePage(**article) for article in data]
