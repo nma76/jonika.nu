@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "description": "",
+        "author": ""
+    },
+    "title": "Jonika.Nu",
+    "topmenu": {
+        "homecaption": "Start",
+        "menuitems": [
+            {
+                "heading": "Home",
+                "url": "/"
+            },
+            {
+                "heading": "About",
+                "url": "about"
+            },
+            {
+                "heading": "Contact",
+                "url": "contact"
+            },
+            {
+                "heading": "Portfolio",
+                "url": "portfolio"
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "Copyright &copy; Jonas Lindau 2024"
+    }
+}
