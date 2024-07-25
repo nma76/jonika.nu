@@ -5,7 +5,7 @@
         "image": "https://picsum.photos/seed/hero/600/400",
         "imagealt": "A random pic from picsum.photos",
         "actionbutton": {
-            "caption": "Read More below!",
+            "caption": "Read more below!",
             "targeturl": "#features"
         }
     },
