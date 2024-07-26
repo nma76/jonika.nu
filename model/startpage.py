@@ -7,7 +7,7 @@ from model.sitesettings import SiteSettings
 import json
 
 @dataclass()
-class Startpage:
+class StartPage:
     hero: Hero
     featuredstories: Stories
     featuredblog: Blog
@@ -16,4 +16,4 @@ class Startpage:
 def get_startpage():
     with open('./content/startpage.json') as file:
         data = json.load(file)
-        return Startpage(**data)
+        return StartPage(**data)
