@@ -1,0 +1,22 @@
+{
+    "heading": "Our mission is to make building websites easier for everyone.",
+    "intro": "Start Bootstrap was built on the idea that quality, functional website templates and themes should be available to everyone. Use our open source, free products, or support us by purchasing one of our premium products or services.",
+    "stories": [
+        {
+            "heading": "Our founding",
+            "image": "https://picsum.photos/seed/about1/600/400",
+            "imagealt": "Lorem ipsum dolor sit amet",
+            "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.",
+            "url": "/article/1",
+            "urlcaption": "Read More"
+        },
+        {
+            "heading": "Growth & beyond",
+            "image": "https://picsum.photos/seed/about2/600/400",
+            "imagealt": "Lorem ipsum dolor sit amet",
+            "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.",
+            "url": "/article/2",
+            "urlcaption": "Read More"
+        }
+    ]
+}
